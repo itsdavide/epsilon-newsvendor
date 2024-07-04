@@ -21,6 +21,7 @@ Computation of the functions:
 Plots the lower expected profit function _lower_pi(q)_ and the optimizer _q*_.
 
 **IMPORTANT: If the optimizer is not unique we select the minimum optimizer by convention.**
+
 **Input**
 * _X_: Range of the discrete random demand in decreasing order
 * _P0_: Probability distribution of the random demand referred to the decreasing order of the range
@@ -31,6 +32,7 @@ Plots the lower expected profit function _lower_pi(q)_ and the optimizer _q*_.
 Plots the upper expected loss function _upper_lambda(q)_ and the optimizer _q*_.
 
 **IMPORTANT: If the optimizer is not unique we select the minimum optimizer by convention.**
+
 **Input**
 * _X_: Range of the discrete random demand in decreasing order
 * _P0_: Probability distribution of the random demand referred to the decreasing order of the range
@@ -43,6 +45,7 @@ Plots the 3D surface and the countour lines of the optimizer _q*_ of _lower_pi(q
 * _c_: unit purchase cost with _c > 0_
 
 **IMPORTANT: If the optimizer is not unique we select the minimum optimizer by convention.**
+
 **Input**
 * _X_: Range of the discrete random demand in decreasing order
 * _P0_: Probability distribution of the random demand referred to the decreasing order of the range
@@ -53,6 +56,7 @@ Plots the 3D surface and the countour lines of the optimizer _q*_ of _upper_lamb
 * _b_: unit overstocking cost with _b > 0_
 
 **IMPORTANT: If the optimizer is not unique we select the minimum optimizer by convention.**
+
 **Input**
 * _X_: Range of the discrete random demand in decreasing order
 * _P0_: Probability distribution of the random demand referred to the decreasing order of the range
