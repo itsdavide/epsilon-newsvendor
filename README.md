@@ -18,7 +18,8 @@ Computation of the functions:
     This function should be minimized in the minimax problem.
 
 ## maxmin.py
-Plots the lower expected profit function _lower_pi(q)_ and the optimizer q*.
+Plots the lower expected profit function _lower_pi(q)_ and the optimizer _q*_.
+
 **IMPORTANT: If the optimizer is not unique we select the minimum optimizer by convention.**
 **Input**
 * _X_: Range of the discrete random demand in decreasing order
@@ -27,7 +28,8 @@ Plots the lower expected profit function _lower_pi(q)_ and the optimizer q*.
 * _c_: unit purchase cost with _c > 0_
 
 ## minmax.py
-Plots the upper expected loss function _upper_lambda(q)_ and the optimizer q*.
+Plots the upper expected loss function _upper_lambda(q)_ and the optimizer _q*_.
+
 **IMPORTANT: If the optimizer is not unique we select the minimum optimizer by convention.**
 **Input**
 * _X_: Range of the discrete random demand in decreasing order
@@ -39,6 +41,7 @@ Plots the upper expected loss function _upper_lambda(q)_ and the optimizer q*.
 Plots the 3D surface and the countour lines of the optimizer _q*_ of _lower_pi(q)_ as a function of:
 * _r_: unit sales revenue with _r > c > 0_
 * _c_: unit purchase cost with _c > 0_
+
 **IMPORTANT: If the optimizer is not unique we select the minimum optimizer by convention.**
 **Input**
 * _X_: Range of the discrete random demand in decreasing order
@@ -48,6 +51,7 @@ Plots the 3D surface and the countour lines of the optimizer _q*_ of _lower_pi(q
 Plots the 3D surface and the countour lines of the optimizer _q*_ of _upper_lambda(q)_ as a function of:
 * _a_: unit understocking cost with _a > 0_
 * _b_: unit overstocking cost with _b > 0_
+
 **IMPORTANT: If the optimizer is not unique we select the minimum optimizer by convention.**
 **Input**
 * _X_: Range of the discrete random demand in decreasing order
