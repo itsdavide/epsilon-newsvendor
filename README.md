@@ -1,8 +1,8 @@
 # epsilon-newsvendor
 Optimization code for the paper:
     
-A. Cinfrignini, D. Petturiti, G. Stabile (2024). 
-_Newsvendor problem with discrete demand and constrained first moment under ambiguity_.
+A. Cinfrignini, D. Petturiti, and G. Stabile. _Newsvendor problem with discrete demand and constrained first moment under ambiguity_. **Decisions in Economics and Finance**, DOI: 10.1007/s10203-024-00477-7, 2024.
+
 
 # Requirements
 The code has been tested on Python 3.10 with the following libraries:
